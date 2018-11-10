@@ -52,3 +52,7 @@ echo -e "\033[41;33m内核模块安装完毕\033[0m"
 echo -e "\033[47;31m正在安装内核\033[0m"
 make install
 echo -e "\033[41;33m内核安装完毕\033[0m"
+
+echo -e "4s后重启"
+sleep 4
+reboot
